@@ -1,5 +1,7 @@
 import express from 'express'
 import {TipoAnimal} from './tipoAnimal.js'
+import { Zona } from './zona.js'
+import { EstadoSalud } from './estadoSalud.js'
 
 const app = express()
 
@@ -14,8 +16,12 @@ app.get('/api/tipoAnimal',(req, res) => {
     res.json(tipoAnimal)
 })
 
-app.use('/',(req, res) => {
-    res.send('Hello, world!')
+const zona=[
+  new Zona(10,'Rosario')
+]
+
+app.get('/api/zona',(req, res) => {
+    res.json(zona)
 })
 
 app.listen(3000, () => {
