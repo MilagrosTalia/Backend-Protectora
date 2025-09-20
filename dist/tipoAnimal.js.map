@@ -1,1 +1,0 @@
-{"version":3,"file":"tipoAnimal.js","sourceRoot":"","sources":["../src/tipoAnimal.ts"],"names":[],"mappings":"AAAA,OAAO,MAAM,MAAM,aAAa,CAAA;AAEhC,MAAM,OAAO,UAAU;IACrB,YACS,MAAc,EACd,aAAa,MAAM,CAAC,MAAM,CAAC,UAAU,EAAE,CAAC;QADxC,WAAM,GAAN,MAAM,CAAQ;QACd,eAAU,GAAV,UAAU,CAA8B;IAC9C,CAAC;CACL"}
